@@ -1,0 +1,9 @@
+Origin: Toilet Cat Repo
+Label: Toilet Cat Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: toilet dot cat
+
