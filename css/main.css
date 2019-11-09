@@ -1,36 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-/* Dark overlay */
-/* Applying the darkoverlay */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
 body {
   background-size: cover;
-}
-
-body:after {
-  content: "";
-  width: 100%;
-  height: auto;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-body:after {
-  background: rgba(0, 0, 0, 0.5);
+  background-color: #000000;
 }
 
 /* Page Styling */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  /* Gradient */
-  background: linear-gradient(-50deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 800% 800%;
-  /* Applying the gradient animation */
-  -webkit-animation: gradientChange 30s ease infinite;
-          animation: gradientChange 30s ease infinite;
+
 }
 
 a,
@@ -61,36 +39,9 @@ p {
   border-radius: 5px;
   border: 2px solid #FFF;
   line-height: 50px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 
 .repobtn:hover {
   background: white;
   color: black;
 }
-
-/* Gradient Animation */
-@-webkit-keyframes gradientChange {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes gradientChange {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-/*# sourceMappingURL=main.css.map */ 

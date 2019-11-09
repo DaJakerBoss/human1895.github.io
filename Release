@@ -6,4 +6,4 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: toilet dot cat
-
+Icon: file://toiletcat.png
