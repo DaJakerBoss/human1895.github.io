@@ -1,0 +1,15 @@
+Package: com.edog813.shitos
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: edog813#9023/Human#1895
+Depends: mobilesubstrate, com.spark.snowboard |  com.anemonetheming.anemone
+Filename: debs/com.edog813.shitos/shitos_iphoneos-arm_1_0_3.deb
+Size: 2811512
+MD5sum: 6b4806597bef61eea2b3ff735ae2f83c
+SHA1: 38b4f3ee3bce31f164bf580586d536918674d504
+SHA256: 0e755b5ad80eea3018f9dbbc415f97a7f58307d4c3ec10c17da1636ff138a3a6
+Section: Themes
+Description: The best ios theme ever made
+Author: Edog813
+Name: ShitOS
+
