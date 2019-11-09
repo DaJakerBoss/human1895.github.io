@@ -18,12 +18,19 @@ p {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 4em;
+  margin: 0.5em 0.5em 0em;
+}
+.small {
+  color: #d0d0d0;
+}
 .content {
   position: center;
-  top: 20px;
-  left: 10px;
+  top: 1em;
+  left: 0.5em;
   right: 0;
-  bottom: 50px;
+  bottom: 2.5em;
   margin-top: 30vh;
   margin-left: auto;
   margin-right: auto;
@@ -31,17 +38,20 @@ p {
 
 /* Buttons */
 .repobtn {
+  font-size: 1em;
   display: inline-block;
-  margin: 20px 5px auto;
+  margin: 2em 0.1em 0.1em;
   margin-left: 5px;
-  padding: 0 50px 0 50px;
+  padding: 0 1.5em 0 1.5em;
   max-width: 150px;
-  border-radius: 5px;
-  border: 2px solid #FFF;
-  line-height: 50px;
+  border-radius: 0.5em;
+  line-height: 2.5em;
+  background: #747474
 }
 
 .repobtn:hover {
-  background: white;
-  color: black;
+  background:#bbbbbb;
+  color: #3a3a3a;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
 }
