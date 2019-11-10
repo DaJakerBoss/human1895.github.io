@@ -41,8 +41,7 @@ h1 {
 .repobtn {
   font-size: 2em;
   display: inline-block;
-  margin: 3em 0.1em 0.2em;
-  margin-left: 5px;
+  margin: 0 auto 0.2em;
   padding: 0 3em 0 3em;
   max-width: 150px;
   border-radius: 1em;
